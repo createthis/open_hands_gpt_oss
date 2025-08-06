@@ -15,22 +15,5 @@ mitmdump -nr full_traffic.mitm --flow-detail 4
 ```
 
 # What
-I recorded several conversations between Open Hands AI and llama.cpp running GLM-4.5 Q4_K_M
-using a tool called `mitmdump`.
-
-
-# prompt
-
-The prompt was:
-
-````
-You've been given access to the `llama.cpp` and `ik_llama.cpp` projects. There is a GLM-4.5 feature branch loaded in each project. You can view the diffs with:
-
-`cd /workspace/llama.cpp && git diff master...glm-4-5`
-
-and
-
-`cd /workspace/ik_llama.cpp && git diff main...glm-4.5-clean`
-
-What do you think of these changes?
-````
+I recorded two conversations between Open Hands AI and llama.cpp running GPT OSS 120b
+using a tool called `mitmdump`. First convo was on linux/mac host. Second was on Windows without WSL.
